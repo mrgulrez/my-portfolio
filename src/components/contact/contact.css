@@ -49,11 +49,15 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-varient);
+    /* background: transparent; */
+    background-color: black;
+    /* border: 2px solid var(--color-primary-varient); */
+    border: 1px solid yellow;
     /* resize: none; */
     color: var(--color-white);
 }
+
+
 
 
 /*   ========================== MEDIA QUERIES (LARGE DEVICES) ================= */
