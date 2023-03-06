@@ -13,7 +13,8 @@ import Contact from './components/contact/Contact'
 const App = () => {
   return (
     <>
-       <Headers /> 
+      
+      <Headers /> 
       <Nav /> 
       <About />
       <Experience /> 

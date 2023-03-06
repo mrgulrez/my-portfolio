@@ -1,12 +1,12 @@
 import React from 'react'
 import './portfolio.css'
 import IMG0 from '../../assets/portfolio1.png'
-import IMG1 from '../../assets/portfolio0.png'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/jamia.png'
+import IMG2 from '../../assets/birthday.png'
+import IMG3 from '../../assets/calculator.png'
+import IMG4 from '../../assets/todo.png'
+import IMG5 from '../../assets/tribe.png'
+import IMG6 from '../../assets/portfolio0.png'
 
 
 
@@ -16,46 +16,46 @@ import IMG6 from '../../assets/portfolio6.jpg'
 const data= [
   {
     id:1,
-    image:IMG0,
-    title:'Fully Functional Web Application',
-    github: 'https://github.com/GulrezAlam07/GulrezAlam07.github.io',
-    demo: 'https://gulrezalam07.github.io/'
+    image:IMG1,
+    title:'Fully Functional University🎓 Website',
+    github: 'https://github.com/GulrezAlam07/fet-jmi',
+    demo: 'https://jamiamilliaislamia.netlify.app'
   },
   {
     id:2,
-    image:IMG1,
+    image:IMG2,
+    title:'Happy Birthday wishing! 🎉 App',
+    github: 'https://github.com/GulrezAlam07/birthday-message/tree/master/2',
+    demo: 'https://gulrez-birthday.netlify.app/'
+  },
+  {
+    id:3,
+    image:IMG3,
+    title:'Calculator App',
+    github: 'https://github.com/GulrezAlam07/OIBGRIP',
+    demo: 'https://g1-calculator.netlify.app'
+  },
+  {
+    id:4,
+    image:IMG4,
+    title:'ToDO App',
+    github: 'https://github.com/GulrezAlam07/OIBGRIP2',
+    demo: 'https://g1todoapp.netlify.ap'
+  },
+  {
+    id:5,
+    image:IMG5,
+    title:'Tribe Page',
+    github: 'https://g1tribe.netlify.app',
+    demo: 'https://github.com/GulrezAlam07/OIBGRIP3'
+  },
+  {
+    id:6,
+    image:IMG6,
     title:'1st Portfolio',
     github: 'https://github.com/GulrezAlam07/myPortfolio',
     demo: 'https://gulrezalamportfolio.netlify.app/'
-  },
-  // {
-  //   id:3,
-  //   image:IMG3,
-  //   title:'Admin dashboard with analytics ',
-  //   github: 'https://github.com',
-  //   demo: 'https://cdn.dribbble.com/users/8244207/screenshots/18204618/media/83a85f9d872b8b23b63eb6675735885f.mp4'
-  // },
-  // {
-  //   id:4,
-  //   image:IMG4,
-  //   title:'Property Landing Page Website',
-  //   github: '',
-  //   demo: 'https://cdn.dribbble.com/users/1413843/screenshots/19808872/media/a395f56eccddbe8de9f683defa731cb4.mp4'
-  // },
-  // {
-  //   id:5,
-  //   image:IMG5,
-  //   title:'Automated Invoice',
-  //   github: 'https://github.com',
-  //   demo: 'https://cdn.dribbble.com/users/4042800/screenshots/19809717/media/fbef57b898cbebfebcca1c8ffd0ac46e.mp4'
-  // },
-  // {
-  //   id:6,
-  //   image:IMG6,
-  //   title:'Crypto wallet',
-  //   github: 'https://github.com',
-  //   demo: 'https://cdn.dribbble.com/users/260900/screenshots/16921853/media/5c3c0624ddc7536770ad4d4bee4ee045.mp4'
-  // } 
+  }
 ]
 
 
