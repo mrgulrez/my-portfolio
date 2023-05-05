@@ -1,11 +1,12 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me-about.jpg'
 import me from '../../assets/Agmh.gif'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {HiAcademicCap} from 'react-icons/hi'
+import TextSphere from '../cloud/Text'
+
 
 const About = () => {
   return (
@@ -16,7 +17,8 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
            <div className="about__me-image">
-           <img src= {me} alt='About Image' />
+           {/* <img src= {me} alt='About Image' /> */}
+           <TextSphere />
            </div>
         </div>
 
