@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import {BsInstagram} from 'react-icons/bs'
 import {BsFacebook} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -19,8 +20,10 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
+      <a href='https://www.linkedin.com/in/mrgulrez/' target='_blank'> <BsLinkedin /></a>
         <a href='https://www.instagram.com/gulrez__alam/' target='_blank'><BsInstagram /></a>
         <a href='https://www.facebook.com/gulrez.alam.7330/' target='_blank'><BsFacebook /></a>
+        
       </div>
       <div className="footer__copyright">
         <small>&copy;Gulrez Alam. All rights reserved</small>
