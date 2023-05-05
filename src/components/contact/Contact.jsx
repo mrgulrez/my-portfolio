@@ -11,6 +11,10 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const form = useRef();
  
+
+  const alertFunction=(e) => {
+    alert('Thank you for submitting your message. I will be in contact with you soon.');
+  }
  
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +25,7 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset();
+      alertFunction();
   };
 
 
@@ -51,17 +56,17 @@ const Contact = () => {
             <h5>+91 9060*****2</h5>
             <a href='https://api.whatsapp.com/send?phone=91 9060287292&text=Hello,%20%20Gulez%20Alam' target='_blank'>Send a message</a>
           </article>
-           
+
         </div>
         {/* ================= END OF CONTACT OPTION ===================*/}
-         
-         
+
+
          <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows='9' placeholder='Your Message' required />
-          <button type='submit' className='btn btn-primary'>Send a Message</button> 
-           
+          <button type='submit' className='btn btn-primary'>Send a Message</button>
+
 
 
          </form>

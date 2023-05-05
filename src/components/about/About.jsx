@@ -47,9 +47,9 @@ const About = () => {
             </div>
 
             <p>
-            I am a Front-End web developer with
+            I am a FullStack developer with
                  problem-solving skills. Skilled in developing
-                 web sites & applications using HTML, CSS, Bootstrap, JavaScript, Reactjs and Figma. Good Creative
+                 web sites & applications using FrontEnd and BackEnd tools. Good Creative
                   thinking and Time managing skills. Ability to
                      work under pressure
 

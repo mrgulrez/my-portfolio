@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7em;
+    padding-top:7em;
     overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ header {
     background:linear-gradient( #4db5ff, transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;    
+    position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;

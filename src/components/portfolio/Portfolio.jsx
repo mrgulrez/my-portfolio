@@ -18,42 +18,42 @@ const data= [
     id:1,
     image:IMG1,
     title:'Fully Functional University🎓 Website',
-    github: 'https://github.com/GulrezAlam07/fet-jmi',
+    github: 'https://github.com/mrgulrez/fet-jmi',
     demo: 'https://jamiamilliaislamia.netlify.app'
   },
   {
     id:2,
     image:IMG2,
     title:'Happy Birthday wishing! 🎉 App',
-    github: 'https://github.com/GulrezAlam07/birthday-message/tree/master/2',
+    github: 'https://github.com/mrgulrez/birthday-message/tree/master/2',
     demo: 'https://gulrez-birthday.netlify.app/'
   },
   {
     id:3,
     image:IMG3,
     title:'Calculator App',
-    github: 'https://github.com/GulrezAlam07/OIBGRIP',
+    github: 'https://github.com/mrgulrez/OIBGRIP',
     demo: 'https://g1-calculator.netlify.app'
   },
   {
     id:4,
     image:IMG4,
     title:'ToDO App',
-    github: 'https://github.com/GulrezAlam07/OIBGRIP2',
-    demo: 'https://g1todoapp.netlify.ap'
+    github: 'https://github.com/mrgulrez/OIBGRIP2',
+    demo: 'https://g1todoapp.netlify.app'
   },
   {
     id:5,
     image:IMG5,
     title:'Tribe Page',
-    github: 'https://g1tribe.netlify.app',
-    demo: 'https://github.com/GulrezAlam07/OIBGRIP3'
+    github: 'https://github.com/mrgulrez/OIBGRIP3',
+    demo: 'https://g1tribe.netlify.app'
   },
   {
     id:6,
     image:IMG6,
     title:'1st Portfolio',
-    github: 'https://github.com/GulrezAlam07/myPortfolio',
+    github: 'https://github.com/mrgulrez/myPortfolio',
     demo: 'https://gulrezalamportfolio.netlify.app/'
   }
 ]

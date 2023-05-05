@@ -127,17 +127,22 @@
     .about__me {
         width: 65%;
         margin:0 auto 3rem;
+        padding-right: 5%;
     }
     
     .about__content {
        text-align: center;
+       padding-right: 5%;
     }
     .about__content p{
          margin: 1.5rem 0;
+         padding-right: 5%;
      }
 
      .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        padding-right: 5%;
+      
     } 
 }
