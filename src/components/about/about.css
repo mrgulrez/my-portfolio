@@ -1,0 +1,153 @@
+
+.container .about__container {
+    display: grid;
+    grid-template-columns: 80%;
+    gap: 15%;
+    
+}
+/* .about__me {
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+         transparent,
+          var(--color-primary),
+          transparent
+          );
+          display: grid;
+          place-items: center;
+} */
+
+.about__me-image {
+    border-radius: 2rem;
+    width: 100%;
+    overflow:visible;
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(-10deg);
+}
+ 
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.about__card {
+    background: var(--color-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about__content {
+    margin: 2rem, 0, 2.6rem;
+    color: var(--color-light);
+}
+
+p {
+    margin: 10px auto 20px auto;
+}
+
+
+/*    =======================MEDIA QUERIES (LARGE DEVICES) ================= */
+@media screen and (min-width:1024px) {
+    .about__container {
+        display: grid;
+        margin: auto 3% auto 3%;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    /* .about__me {
+        width: 75%;
+    } */
+
+}
+
+/*    ==========================  MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width:1024px) {
+    .container .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;  
+    }
+
+     .about__me {
+        width: 60%;
+         /* margin: 2rem 11% 4rem auto;  */
+        align-items: center;
+    }
+    
+    .about__content p {
+        text-align: center;
+        margin: 1.5rem -4% 2rem 9% ;
+    }
+    .about__cards {
+        margin-right: -11%;
+        margin-left: 4%;
+    }
+
+    .about__content {
+        text-align: center;
+        margin-right: -12%;
+     }
+     /* .about__content p{
+          margin: 1.5rem 0;
+      } */
+}
+
+
+
+/*    ==========================  MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width:600px) {
+   
+
+    .about__me {
+        width: 80%;
+        height: 80%;
+        margin:0 auto 3rem auto;
+
+    }
+    
+    .about__content {
+       text-align: center;
+
+    }
+    .about__content p{
+         margin: 1.5rem;
+
+     }
+
+     .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding-right: 5%;
+      
+    } 
+}

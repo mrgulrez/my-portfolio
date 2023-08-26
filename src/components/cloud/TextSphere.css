@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.text-shpere {
+    position: relative;
+    top: 0;
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.0625em;
+    font-size: auto;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+    color: #00ffffff;
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+    color: yellow;
+    font-style: italic;
+    font-size: large;
+    
+}
+
+@media screen and (max-width:600px) {
+   
+
+    .text-shpere {
+        width: 100vh;
+        height: 50vh;
+    }
+}
