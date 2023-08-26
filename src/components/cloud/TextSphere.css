@@ -29,7 +29,9 @@
 .tagcloud--item:hover {
     color: yellow;
     font-style: italic;
+
     font-size: large;
+
     
 }
 

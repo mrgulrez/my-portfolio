@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+
 import IMG1 from '../../assets/music-room.png'
 import IMG2 from '../../assets/crm-system.png'
 import IMG3 from '../../assets/jamia.png'
@@ -18,6 +19,7 @@ const data= [
   {
     id:1,
     image:IMG1,
+
     title:'Party Room',
     github: 'https://github.com/mrgulrez/music-room',
     demo: 'https://github.com/mrgulrez/music-room'
@@ -33,43 +35,54 @@ const data= [
   {
     id:3,
     image:IMG3,
+
     title:'Fully Functional University🎓 Website',
     github: 'https://github.com/mrgulrez/fet-jmi',
     demo: 'https://jamiamilliaislamia.netlify.app'
   },
   {
+
     id:4,
     image:IMG4,
+
     title:'Happy Birthday wishing! 🎉 App',
     github: 'https://github.com/mrgulrez/birthday-message/tree/master/2',
     demo: 'https://gulrez-birthday.netlify.app/'
   },
   {
+
     id:5,
     image:IMG5,
+
     title:'Calculator App',
     github: 'https://github.com/mrgulrez/OIBGRIP',
     demo: 'https://g1-calculator.netlify.app'
   },
   {
+
     id:6,
     image:IMG6,
+
     title:'ToDO App',
     github: 'https://github.com/mrgulrez/OIBGRIP2',
     demo: 'https://g1todoapp.netlify.app'
   },
   {
+
     id:7,
     image:IMG7,
+
     title:'Tribe Page',
     github: 'https://github.com/mrgulrez/OIBGRIP3',
     demo: 'https://g1tribe.netlify.app'
   },
 
+
   {
     id:8,
     image:IMG8,
     title:'1st Portfolio 😀',
+
     github: 'https://github.com/mrgulrez/myPortfolio',
     demo: 'https://gulrezalamportfolio.netlify.app/'
   }
@@ -85,7 +98,9 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {
           data.map(({id, image, title, github, demo}) => {
+
           return(
+
             <article key ={id} className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={image} alt={title}/>
@@ -100,6 +115,8 @@ const Portfolio = () => {
           )
         })
       }
+
+
       </div>
     </section>
   )
