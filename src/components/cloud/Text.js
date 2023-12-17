@@ -13,11 +13,13 @@
         "JavaScript",
         "React",
         "Java",
+
         "Data Structures",
         "Algorithms",
         "Full Stack Developer",
         "MySql",
         "Insomnia",
+
         "Python",
         "GIT",
         "DJango",
