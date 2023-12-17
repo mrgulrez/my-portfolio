@@ -1,18 +1,78 @@
-footer {
-    /* background: var(--color-primary); */
-    /* background-color: rgb(31, 103, 161); */
-    background-color: #08d5feb0;
-    background-image: linear-gradient(to bottom right, #d6eb77, #21b4b4, #bd649b, rgb(255, 122, 89));
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
-
-}
-
-footer a {
-    color: var(--color-bg);
-}
+:root {
+    --color-primary: #08d5fe;
+    --color-gradient-start: #d6eb77;
+    --color-gradient-mid1: #21b4b4;
+    --color-gradient-mid2: #bd649b;
+    --color-gradient-end: #ff7a59;
+    --color-bg: #fff; /* Replace with your background color */
+    --color-white: #fff;
+  }
+  
+  footer {
+      background: linear-gradient(to right, 
+          var(--color-gradient-start) 0%,
+          var(--color-gradient-mid1) 25%,
+          var(--color-gradient-mid2) 50%,
+          var(--color-gradient-end) 75%,
+          var(--color-gradient-start) 100%
+      );
+      background-size: 500% 100%;
+      animation: colorChange 10s infinite linear, backgroundMove 10s infinite linear;
+      padding: 3rem 0;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 7rem;
+  }
+  
+  @keyframes colorChange {
+      0%, 100% {
+          --color-primary: #08d5fe;
+          --color-gradient-start: #d6eb77;
+          --color-gradient-mid1: #21b4b4;
+          --color-gradient-mid2: #bd649b;
+          --color-gradient-end: #ff7a59;
+      }
+      25% {
+          --color-primary: #ff7a59;
+          --color-gradient-start: #bd649b;
+          --color-gradient-mid1: #08d5fe;
+          --color-gradient-mid2: #d6eb77;
+          --color-gradient-end: #21b4b4;
+      }
+      50% {
+          --color-primary: #21b4b4;
+          --color-gradient-start: #08d5fe;
+          --color-gradient-mid1: #ff7a59;
+          --color-gradient-mid2: #bd649b;
+          --color-gradient-end: #d6eb77;
+      }
+      75% {
+          --color-primary: #bd649b;
+          --color-gradient-start: #21b4b4;
+          --color-gradient-mid1: #d6eb77;
+          --color-gradient-mid2: #ff7a59;
+          --color-gradient-end: #08d5fe;
+      }
+  }
+  
+  @keyframes backgroundMove {
+      0%, 100% {
+          background-position: 0% 0;
+      }
+      25% {
+          background-position: 100% 0;
+      }
+      50% {
+          background-position: 200% 0;
+      }
+      75% {
+          background-position: 300% 0;
+      }
+  }
+  
+  footer a {
+      color: var(--color-bg);
+  }
 
 .footer__logo {
     font-size: 2rem;
